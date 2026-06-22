@@ -1,0 +1,16 @@
+@charset "UFT-8";
+
+div {
+    background-color: aqua;
+    color: blue;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover {
+    background-color: brown;
+}
+div:checked {
+    background-color: blue;
+}

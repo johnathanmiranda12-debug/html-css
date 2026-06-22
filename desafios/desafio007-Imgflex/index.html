@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="HTML5-icon.png" type="image/x-icon">
+    <title>Imagens flexiveis</title>
+</head>
+<body>
+    <h1>Imagem flexivel</h1>
+    <p>Vou elaborar uma imagem flexivel com a tag &lt;picture&gt; de tres tamanhos diferentes. P, M e G de acordo com o que o usuario diminua a tela.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="Imagem da floresta">
+    </picture>
+    <hr>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-city-p-mod.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-city-m-mod.jpg" type="image/jpg">
+        <img src="imagens/imagem-city-g.jpg" alt="Imagem da cidade">
+    </picture>
+    <hr>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-cat-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-cat-m.jpg" type="image/jpg">
+        <img src="imagens/imagem-cat-g.jpg" alt="Foto de Gato">
+    </picture>
+
+</body>
+</html>

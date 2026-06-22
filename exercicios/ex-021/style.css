@@ -1,0 +1,79 @@
+@charset "UTF-8"; /* regra para acentuaçao pt-br */
+
+/* Cor em degrade */
+body {
+    background-image: linear-gradient(to right, #1EA4D9, #1FA65A, #d22a2abb);
+} 
+
+header {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header > h1 {
+    height: 45px;
+    width: 204px;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 10px auto 7px auto;
+    border-radius: 20px;
+    color: black;
+    background-image: linear-gradient(to right,  #1ea4d9c0, #1fa65acc, #f23030bd);
+    
+}
+
+header > nav {
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: 5px 40px 5px 40px;
+    padding: 5px;
+    font: normal normal 18px Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,  #1EA4D9, #23B7D9, #1FA65A, #F2E2CE, #F23030);
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+}
+
+nav:hover > a {
+    text-decoration: underline;
+    color: black;
+}
+
+main > section {
+    background-color: white;
+    padding: 10px;
+    margin: 12px 0px 10px 0px;
+    border-radius: 14px;
+    font: normal bold 1em Arial, Helvetica, sans-serif;
+}
+
+main > .diferente {
+    height: 140px;
+    width: 235px;
+    padding: 10px 10px 20px 10px;
+    border: 5px solid black;
+    border-radius: 14px;
+    margin-top: 10px;
+    font: italic normal 1em Arial, Helvetica, sans-serif;
+    color: rgb(255, 00, 00);
+}
+
+.ultimo {
+    text-align: center;
+    background-color: black;
+    color: yellow;
+    padding: 12px;
+    border: 5px dashed white;
+    margin: 5px 50px 5px 50px;
+}
+
+footer {
+    margin: 0px;
+    border: 3px solid rgba(35, 33, 33, 0.025);
+    border-radius: 5px;
+    text-align: center;
+    background-image: linear-gradient(to right, #0c739c4e, #1FA65A #f230303f);
+}
+

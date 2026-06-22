@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="css-3-icon.png" type="image/x-icon">
+    <title>Exemplo de Hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p { /* Representa que "p" é filho de "div" */
+            display: none; /* Faz com que a propriedade seja escondida */
+        }
+
+        /* Quando passar o mouse por cima do "p" que é filho da "div", ele sera revelado com a propriedade display:block */
+        div:hover > p { 
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+
+        div:hover { /* Quando passar o mouse por cima dessa "div", ela se tornara de cor de fonte vermelha */
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <P>TEXTO ESCONDIDO...</P>
+    </div>
+    <p>fim do exemplo</p>
+</body>
+</html>
